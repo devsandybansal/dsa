@@ -6,12 +6,12 @@ Write a function that searches for an element in an array and return the index, 
 
 ```
 Input: nums = [2, 8, 10, 13, 5, 3, 1], target = 13
-Ouput: 3
+Output: 3
 ```
 
 **Example 2:**
 
 ```
 Input: nums = [2, 8, 10, 13, 5, 3, 1], target = 9
-Ouput: -1
+Output: -1
 ```
