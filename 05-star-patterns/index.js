@@ -40,4 +40,56 @@ function pattern4(n) {
   }
 }
 
-pattern4(6);
+function pattern5(n) {
+  for (let i = 0; i < n; i++) {
+    let row = "";
+
+    // Adding empty spaces
+    for (let j = 0; j < n - (i + 1); j++) {
+      row = row + " ";
+    }
+
+    // Adding stars
+    for (let k = 0; k < i + 1; k++) {
+      row = row + "*";
+    }
+
+    console.log(row);
+  }
+}
+
+function pattern6(n) {
+  for (let i = 0; i < n; i++) {
+    let row = "";
+    let bit = 1;
+    for (let j = 0; j < i + 1; j++) {
+      row = row + bit;
+      if (bit === 1) {
+        bit = 0;
+      } else {
+        bit = 1;
+      }
+    }
+    console.log(row);
+  }
+}
+
+function pattern7(n) {
+  let bit = 1;
+  for (let i = 0; i < n; i++) {
+    let row = "";
+    for (let j = 0; j < i + 1; j++) {
+      row = row + bit;
+
+      // Switch bit
+      if (bit === 1) {
+        bit = 0;
+      } else {
+        bit = 1;
+      }
+    }
+    console.log(row);
+  }
+}
+
+pattern7(5);

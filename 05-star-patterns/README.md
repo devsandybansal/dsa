@@ -5,7 +5,6 @@ Write a function to print the following star patterns
 **1st Pattern**
 
 ```
-n = 4
 * * * *
 * * * *
 * * * *
@@ -39,4 +38,34 @@ n = 4
 1 2 3
 1 2
 1
+```
+
+**5th Pattern**
+
+```
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+```
+
+**6th Pattern**
+
+```
+1
+1 0
+1 0 1
+1 0 1 0
+1 0 1 0 1
+```
+
+**7th Pattern**
+
+```
+1
+0 1
+0 1 0
+1 0 1 0
+1 0 1 0 1
 ```
